@@ -10,7 +10,7 @@ export default function Home() {
   return <>
   <section class="flex text-center sm:text-left items-center text-4xl xl:text-5xl font-semibold">
     <div class="px-8">
-      <h1 class="w-full mb-8">Hi, my name is
+      <h1 class="w-full mb-8">Hi, I am
         <span>&nbsp;SHAWN</span>
         <br/>I'm not the developer that everyone needs but the dev that everyone deserve
       </h1>
