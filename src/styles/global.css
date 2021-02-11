@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply font-serif;
+    }
+    section{
+        @apply h-screen px-4;
+    }
+    .header{
+        @apply text-3xl sm:text-4xl font-semibold mb-8;
+    }
+}
+
+@layer utilities{
+    .w-350{
+        width: 350px;
+    }
+    .w-25{
+        width: 25px;
+    }
+    .h-25{
+        height: 25px;
+    }
+    .h-200{
+        height: 200px;
+    }
+    .h-25vh{
+        height:25vh;
+    }
+    .h-50vh{
+        height: 50vh;
+    }
+    .h-60vh{
+        height: 60vh;
+    }
+    .h-80vh{
+        height: 80vh;
+    }
+    .h-20vh{
+        height: 20vh;
+    }
+}
