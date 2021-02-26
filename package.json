@@ -21,10 +21,12 @@
     "@fortawesome/react-fontawesome": "^0.1.14",
     "gatsby": "^2.26.1",
     "gatsby-plugin-postcss": "^3.7.0",
+    "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-smoothscroll": "^1.2.0",
     "postcss": "^8.2.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "prettier": "2.2.1",

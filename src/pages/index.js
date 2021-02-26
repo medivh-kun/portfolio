@@ -5,9 +5,16 @@ import skyScrapper from "../images/skyscrapper.jpg"
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import Footer from '../components/footer'
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
+import favicon from "../images/favicon.ico"
 
 export default function Home() {
   return <>
+  <Helmet>
+    <meta charSet="utf-8"/>
+    <title>Shawn | Home</title>
+    <link rel="icon" href={favicon} />
+  </Helmet>
   <section class="flex text-center sm:text-left items-center text-4xl xl:text-5xl font-semibold">
     <div class="px-8">
       <h1 class="w-full mb-8">Hi, I am

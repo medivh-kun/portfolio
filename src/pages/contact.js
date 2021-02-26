@@ -4,6 +4,7 @@ import "../styles/global.css"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const MyForm = () => {
     
@@ -37,6 +38,11 @@ const MyForm = () => {
         });
     };
     return (
+    <>
+    <Helmet>
+      <meta charSet="utf-8"></meta>
+      <title>Shawn | Contact</title>
+    </Helmet>
       <section class="bg-gradient-to-r from-purple-500 to-blue-900 grid items-center justify-center justify-items-center">
         <Link to="/" class="absolute h-8 pt-4 w-4"><FontAwesomeIcon icon={faChevronLeft} class="h-25 w-25"></FontAwesomeIcon></Link>
           <div class="w-11/12 bg-white h-60vh rounded p-6">
@@ -72,6 +78,7 @@ const MyForm = () => {
           </div>
          
       </section>
+     </>
     );
   };
   
