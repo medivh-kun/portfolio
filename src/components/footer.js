@@ -12,7 +12,7 @@ export default function Footer(){
             <div class="w-1/4 grid grid-cols-3 justify-items-center items-center gap-4">
                 <Link to="/404"><FontAwesomeIcon icon={faTwitter} size="2x"/></Link>
                 <Link to="https://www.linkedin.com/in/shawnang23"><FontAwesomeIcon icon={faLinkedin} size="2x"/></Link>
-                <Link to="https://www.github.com/medivh-kun"><FontAwesomeIcon icon={faGithub} size="2x"/></Link> 
+                <Link to="https://www.github.com/shawnawannabe"><FontAwesomeIcon icon={faGithub} size="2x"/></Link>
             </div>
         
 
